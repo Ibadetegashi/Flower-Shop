@@ -1,0 +1,176 @@
+
+
+
+
+.content {
+  background-image: url("https://i.pinimg.com/originals/8b/60/b2/8b60b28038e53a1e86e8be3dd306ef39.jpg");
+  height: 43em;
+  background-position: center;
+  background-size: contain;
+  background-color: palevioletred;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  padding-bottom: 150px;
+}
+@media (max-width: 800px) {
+  .content {
+    height: 30em;
+    
+
+  }
+  .button-content{
+    font-size: auto;
+  }
+  .icons{
+    
+    flex-direction: column;
+  }
+  
+  
+}
+
+.content h1 {
+  font-size: 5em;
+  color: 	palevioletred;
+  font-weight: bolder;
+   text-shadow: 0 5px 3px rgba(0, 0, 0, 0.884);
+}
+.button-content {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  font-size: 2em;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 0 10px 1px rgba(8, 58, 2, 0.884);
+  background-color: rgba(60, 181, 33, 0.522);
+}
+ .content a {
+  color: white;
+}
+.content a:hover {
+  text-decoration: none;
+  color: rgb(7, 87, 26);
+}
+.button-content:hover{
+  text-decoration: none;
+  color: rgb(7, 87, 26);
+  border: 2px solid rgb(7, 87, 26);
+
+}
+
+
+.content p{
+   text-shadow: 0 1px 1px rgba(194, 81, 194, 0.884);
+  font-size: larger;
+}
+.iconify{
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+.icons{
+  display: flex;
+  justify-content: space-around;
+
+  text-align: center;
+  align-items: center;
+  height: 18em;
+  background-color: pink;
+}
+.icons p{
+  width: 20em;
+}
+
+.flowers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+ 
+  text-align: center;
+}
+.flowers img{
+  height: 25em;
+  width: 15em;
+}
+.flowers-content{
+  background-color: rgba(255, 192, 203, 0.319);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap:2em ;
+  height: 50em; 
+}
+.flowers-content h1{
+color: palevioletred;
+}
+.flo h3{
+  margin: 0.5em;
+  color: green;
+}
+.flo p{
+  font-size: x-large;
+  color: rgba(0, 128, 0, 0.659);
+}
+.number{
+  background-image: url("https://images.all-free-download.com/images/graphiclarge/pink_roses_background_picture_166705.jpg");
+  height: 18em;
+  color:white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.number h1{
+  font-size: 3em;
+}
+.number h2{
+ background-color: rgba(255, 255, 255, 0.644);
+ color: palevioletred;
+ padding: 0.3em;
+ 
+}
+
+.test{
+  height: 100px;
+  background-color: black;
+}
+
+
+
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    background-color: rgba(216, 112, 147, 0.796);
+    padding: 2em;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.box h3{
+    color: azure;
+    font-size: 18.72px;
+    
+}
+
+.credit{
+    text-align: center;
+    background-color: palevioletred;
+    font-size: 1.5em;
+    color: pink;
+    padding: 0.5em;
+}   
+.box a{
+    text-decoration: none;
+    color: white ;
+}
+
+.fab{
+    font-size:2em;
+    margin: 0.2em;
+}

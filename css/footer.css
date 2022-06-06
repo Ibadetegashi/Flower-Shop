@@ -1,0 +1,35 @@
+
+
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    background-color: rgba(216, 112, 147, 0.796);
+    padding: 2em;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    
+}
+.box h3{
+    color: azure;
+    font-size: 18.72px;
+}
+
+.credit{
+    text-align: center;
+    background-color: palevioletred;
+    font-size: 1.5em;
+    color: pink;
+    padding: 0.5em;
+}   
+.box a{
+    text-decoration: none;
+    color: white ;
+}
+
+.fab{
+    font-size:2em;
+    margin: 0.2em;
+}
