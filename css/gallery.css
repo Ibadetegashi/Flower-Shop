@@ -1,0 +1,112 @@
+h1{
+    border: 6px groove rgb(218, 19, 52);
+    text-align: center;
+    font-size: 40px;
+    color: palevioletred ;
+    width: 19.8em;
+    margin: 50px auto;
+    
+}
+
+.box{
+    /* width: 200px;
+    height: 200px; */
+    /* border: 3px solid green; */
+    background-size:cover;
+    
+
+
+}
+#b1{
+    outline:  double rgb(255, 0, 0);
+    grid-column: span 2 ;
+    background-image: url(https://img.freepik.com/free-photo/newlyweds-wedding-day-wedding-couple-with-wedding-bouquet-flowers-bride-groom_222709-1204.jpg?w=2000);
+    
+}
+#b2{
+    border:  solid rgba(255, 0, 200, 0.925);
+    grid-row: span 2;
+    grid-column: span 1;
+    background-image: url(https://static.onecms.io/wp-content/uploads/sites/34/2019/02/19/petite-bouquets-john-shim-0219-2000.jpeg);
+ 
+}
+#b3{ 
+    border:  dashed #ff2a2a;
+    background-image: url(https://cdn0.hitched.co.uk/article/9003/3_2/960/jpg/83009-wedding-flowers-cost.jpeg);
+
+}
+#b4{
+    border:  groove hsl(328, 75%, 42%);
+    background-image: url(https://cdn.create.vista.com/api/media/medium/430999802/stock-photo-elegant-wedding-bouquet-fresh-natural?token=);
+}
+#b6{
+    border: inset  hsl(328, 75%, 42%);
+    grid-column: span 2;
+    grid-row: span 2;
+   background-image: url("https://www.mondofloraldesigns.com.au/wp-content/uploads/2018/12/Luke-Middlmiss-Photography-485.jpg");
+   
+}
+#b5{
+    border:  outset hsl(328, 75%, 42%);
+    
+    background-image: url(https://www.wedhawaii.com/hs-fs/hubfs/Classic-Tropical.jpg?width=700&name=Classic-Tropical.jpg);
+}
+#b7{
+    border:  outset hsl(328, 75%, 42%);
+    background-image: url("https://www.brides.com/thmb/4ayia2M9i10PnJ8UdR-0Ibe2vYo=/1365x1365/filters:fill(auto,1)/LagunaBeachPetiteWedding-ValorieDarlingPhotography-0E4A8542_cropped-ffbdfbca55f04e638c106b52ea79a7e8.jpg");
+    }
+
+#b8{
+    outline:  double rgb(255, 0, 0);
+    grid-column: span 2 ;
+    grid-row: span 2 ;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/551d6054e4b0d35570d81ea5/1553120278713-LAR8W4XWDY8ENQKC3PSG/3E3F0691.jpg?format=1000w");
+    
+}
+#b9{
+    border:  solid rgba(255, 0, 200, 0.925);
+    grid-row: span 2;
+    grid-column: span 1;
+        background-image: url("https://cdn.create.vista.com/api/media/medium/149109931/stock-photo-pink-cream-wedding-cake-decorated?token=");
+
+ 
+}
+
+
+#b12{
+    border: inset  hsl(328, 75%, 42%);
+    grid-column: span 2;
+    grid-row: span 2;
+   background-image: url(https://karaspartyideas.com/wp-content/uploads/2020/08/Fancy-Flower-Garden-Birthday-Party-via-Karas-Party-Ideas-KarasPartyIdeas.com22.jpeg);
+   
+}
+#b13{
+    border:  outset hsl(328, 75%, 42%);
+    grid-row: span 2;
+    background-image: url(https://zolpwsuwoq-flywheel.netdna-ssl.com/wp-content/uploads/2019/10/Floral-First-Birthday-Celebration.jpg);
+}
+#b14{
+    border:  outset hsl(328, 75%, 42%);
+    
+    background-image: url(https://i.pinimg.com/originals/2b/91/3a/2b913a17ec91224fb401318d06d6c9be.jpg);
+    }
+
+
+.allbox{
+    display: grid;
+    grid-template-columns: repeat(3,250px);
+    grid-template-rows: repeat(4,150px);
+    /* row-gap: 20px;
+    column-gap: 30px; */
+    grid-gap: 1.7em;
+    /* grid-template-areas: "header header header"; */
+    justify-content: center;
+  
+}
+
+
+
+
+body{
+   background-color: pink;
+}
